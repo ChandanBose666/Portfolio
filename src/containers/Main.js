@@ -76,7 +76,7 @@ export default function Main(propss) {
                 />
               )}
             />
-            <Route
+            {/* <Route
               path="/projects"
               render={(props) => (
                 <Projects
@@ -85,7 +85,7 @@ export default function Main(propss) {
                   setTheme={propss.setTheme}
                 />
               )}
-            />
+            /> */}
           </Switch>
         </HashRouter>
       </div>

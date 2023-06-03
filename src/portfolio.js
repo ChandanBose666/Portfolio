@@ -2,45 +2,43 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  isSplash: true, // Change this to true if you want to use the splash screen.
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
-  title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+  title: "Hello World,",
+  title2: "Chandan",
+  logo_name: "ProductiveCoder",
+  nickname: "ChandanBose666",
+  full_name: "Chandan Bose",
+  subTitle: "FrontEnd Developer, Algorithm Enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1IQge4pNhyj-RD2OOnEMrRPMODDUWeVDy/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+    "https://drive.google.com/file/d/1qhxBgH70dN4I9HykfrVZFmtqrjVbiOxI/view?usp=sharing",
+  mail: "mailto:bosechandan21@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
-  gitlab: " ",
-  facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  github: "https://github.com/ChandanBose666",
+  linkedin: "https://www.linkedin.com/in/chandan-bose-711698116/",
+  gmail: "bosechandan21@gmail.com",
+  // gitlab: " ",
+  // facebook: " ",
+  // twitter: "https://twitter.com/hrishi_55",
+  instagram: "https://www.instagram.com/miraculously.ecstatic/",
 };
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "FrontEnd Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing mobile applications using React native",
       ],
       softwareSkills: [
         {
@@ -65,70 +63,7 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Kotlin",
-          fontAwesomeClassname: "simple-icons:kotlin",
-          style: {
-            color: "#5c79df",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -173,26 +108,12 @@ const skills = {
             color: "#3DDC84",
           },
         },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
+
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "#4479A1",
-          },
-        },
-
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
           },
         },
 
@@ -205,146 +126,22 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-      ],
-    },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Dalhousie University",
-      subtitle: "Masters in Applied Computer Science",
+      title: "West Bengal University of Technology",
+      subtitle: "B.Tech in Electronics and Communication",
       logo_path: "dal.png",
       alt_name: "DAL",
-      duration: "2022 - 2023",
+      duration: "2011 - 2015",
       descriptions: [
-        "⚡ Studied Advanced Software Development Concepts, Data Managmenet & Warehousing",
-        "⚡ Also studied Mobile Computing, Severless Data Processing and created projects on them",
-        "⚡ Upcoming courses: Advanced Topics in Web Development and Cloud Computing",
+        "⚡ Studied Semiconductor behavior on Mosfet, Cmos, BJTs",
+        "⚡ Advanced digital signal processing, Analog communication",
+        "⚡ I have studied core subjects like Data Structures",
       ],
-      website_link: "https://www.dal.ca/",
-    },
-    {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
-      duration: "2017 - 2021",
-      descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
-      ],
-      website_link: "https://www.sal.edu.in/",
     },
   ],
 };
@@ -468,23 +265,67 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "As a frontend developer, my mission is to create seamless user experiences by designing and building intuitive interfaces. I am passionate about crafting visually appealing websites and applications that not only look great but are also easy to navigate.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Full Stack Developer",
-          company: "Quicko",
-          company_url: "https://quicko.com/",
-          logo_path: "quicko.jpg",
-          duration: "June 2021 - October 2021",
-          location: "Ahmedabad",
+          title: "Tech Lead",
+          company: "Keyafe",
+          company_url: "https://www.keyafe.com/",
+          logo_path: "keyafe.png",
+          duration: "Aug 2022 - May 2023",
+          location: "Kolkata",
           description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
+            "Keyafe is a e-commerce application with a variety of innovative healthy food items such as cakes, savoury, pizza etc",
+          color: "#2962FF",
+        },
+        {
+          title: "Frontend Engineer I",
+          company: "Octopus Investments",
+          company_url: "https://www.octopusonline.co.uk/",
+          logo_path: "octopus.png",
+          duration: "May 2022 - July 2022",
+          location: "London",
+          description:
+            "Octopus Online is a service provider which introduces new products to the citizens of UK to help reduce their tax payments",
+          color: "#2962FF",
+        },
+        {
+          title: "Senior Frontend Developer",
+          company: "Keyafe",
+          company_url: "https://www.keyafe.com/",
+          logo_path: "keyafe.png",
+          duration: "Aug 2020 - Mar 2022",
+          location: "Kolkata",
+          description:
+            "Keyafe is a e-commerce application with a variety of innovative healthy food items such as cakes, savoury, pizza etc",
+          color: "#2962FF",
+        },
+        {
+          title: "Frontend Developer",
+          company: "DistroniX",
+          company_url: "http://distronix.in/",
+          logo_path: "distronix.jpeg",
+          duration: "Dec 2018 - Jun 2020",
+          location: "Kolkata",
+          description:
+            "With everyday development in electronic designs and networking protocols, we come with application specific yet customisable electronic solutions for your smarter needs.",
+          color: "#2962FF",
+        },
+        {
+          title: "Solution Intgerator",
+          company: "Ericsson",
+          company_url: "https://www.ericsson.com",
+          logo_path: "ericsson.png",
+          duration: "Nov 2015 - Nov 2017",
+          location: "Kolkata",
+          description:
+            "Worked on configuring postpaid network packages for Du, Telstra, Mobinil",
           color: "#2962FF",
         },
       ],
@@ -536,54 +377,6 @@ const experience = {
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Summer of Code Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Summer of 2017 / 18 / 20",
-          location: " ",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        {
-          title: "Google Code-In Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Winter of 2017 / 18 / 19",
-          location: " ",
-          description:
-            "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
-          color: "#D83B01",
-        },
-        {
-          title: "Board Member at Codeuino",
-          company: " ",
-          company_url: " ",
-          logo_path: "codeuino.jpg",
-          duration: "2018 - 2019",
-          location: " ",
-          description: "Previous Board during early days of Codeuino",
-          color: "#D83B01",
-        },
-        {
-          title: "BluWings Club",
-          company: " ",
-          company_url: " ",
-          logo_path: "b.png",
-          duration: "2018 - On Going",
-          location: " ",
-          description:
-            "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
-          color: "#D83B01",
-        },
-      ],
-    },
   ],
 };
 
@@ -599,17 +392,17 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path: "Chandan_Bose_image.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "https://medium.com/@hrishipatel99",
-    avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
+  //   link: "https://medium.com/@hrishipatel99",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
 };
 
 const projects = {
