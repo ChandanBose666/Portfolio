@@ -379,22 +379,22 @@ const experience = {
 };
 
 // Projects Page
-const projectsHeader = {
-  title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
-  avatar_image_path: "projects_image.svg",
-};
+// const projectsHeader = {
+//   title: "Projects",
+//   description:
+//     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+//   avatar_image_path: "projects_image.svg",
+// };
 
-// Contact Page
-const contactPageData = {
-  contactSection: {
-    title: "Contact Me",
-    profile_image_path: "Chandan_Bose_image.jpg",
-    description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
-  },
-};
+// // Contact Page
+// const contactPageData = {
+//   contactSection: {
+//     title: "Contact Me",
+//     profile_image_path: "Chandan_Bose_image.jpg",
+//     description:
+//       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+//   },
+// };
 
 // const projects = {
 //   data: [
