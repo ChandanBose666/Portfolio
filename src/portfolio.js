@@ -745,5 +745,4 @@ export {
   experience,
   projectsHeader,
   contactPageData,
-  projects,
 };
